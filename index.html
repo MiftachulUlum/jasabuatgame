@@ -1,0 +1,1289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+                    Jasa Pembuatan Game
+            </title>
+	<link rel="canonical" href="https://fah.li" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/logos/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/logos/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/logos/favicon-16x16.png">
+    <link rel="manifest" href="/assets/img/logos/site.webmanifest">
+    <link rel="mask-icon" href="assets/img/logos/safari-pinned-tab.svg" color="#0b1120">
+    <meta name="msapplication-TileColor" content="#0b1120">
+    <meta name="theme-color" content="#0b1120">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/sweetalert2.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/tags.css">
+    <link rel="stylesheet" href="assets/css/plane.css">
+    <link rel="stylesheet" href="assets/vendors/icons/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/devicon.css">
+    <!-- Livewire Styles --><style >[wire\:loading][wire\:loading], [wire\:loading\.delay][wire\:loading\.delay], [wire\:loading\.inline-block][wire\:loading\.inline-block], [wire\:loading\.inline][wire\:loading\.inline], [wire\:loading\.block][wire\:loading\.block], [wire\:loading\.flex][wire\:loading\.flex], [wire\:loading\.table][wire\:loading\.table], [wire\:loading\.grid][wire\:loading\.grid], [wire\:loading\.inline-flex][wire\:loading\.inline-flex] {display: none;}[wire\:loading\.delay\.none][wire\:loading\.delay\.none], [wire\:loading\.delay\.shortest][wire\:loading\.delay\.shortest], [wire\:loading\.delay\.shorter][wire\:loading\.delay\.shorter], [wire\:loading\.delay\.short][wire\:loading\.delay\.short], [wire\:loading\.delay\.default][wire\:loading\.delay\.default], [wire\:loading\.delay\.long][wire\:loading\.delay\.long], [wire\:loading\.delay\.longer][wire\:loading\.delay\.longer], [wire\:loading\.delay\.longest][wire\:loading\.delay\.longest] {display: none;}[wire\:offline][wire\:offline] {display: none;}[wire\:dirty]:not(textarea):not(input):not(select) {display: none;}:root {--livewire-progress-bar-color: #2299dd;}[x-cloak] {display: none !important;}</style>
+    <script data-navigate-once src="assets/js/jquery.js"></script>
+    <script data-navigate-once src="assets/js/feather.js"></script>
+    <script data-navigate-once src="assets/js/theme.js"></script>
+    <script data-navigate-once>
+        if ("serviceWorker" in navigator) {
+            window.addEventListener("load", function() {
+                navigator.serviceWorker
+                    .register("serviceWorker.js")
+                    .then((res) => console.log("Service worker registered"))
+                    .catch((err) => console.log("Couldn't register service worker. Caused by ", err));
+            });
+        }
+    </script>
+    <meta name="csrf-token" content="1KEtKWO3Ai8JbmHnsdCJlUChjZ2PHHGFjuCHuT8Q">
+</head>
+<body class="bg-dynamic-primary">
+  <div class="loading-spinner loading-spinner-top-right" wire:loading>
+    <div class="spinner-border text-primary" role="status">
+      <span class="visually-hidden">Loading...</span>
+    </div>
+  </div>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid container-lg">
+            <div x-persist="button_menu">
+                <button class="navbar-toggler main-menu-toggle menu-toggle" data-bs-toggle="offcanvas"
+                    data-bs-target="#mainMenuCanvas" aria-controls="mainMenuCanvas" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span></span>
+                </button>
+            </div>
+            <div x-persist="logo">
+                <a class="navbar-brand nav-dark d-none" href="#">
+                    <img class="logo" src="assets/img/logos/logo_dark.png" alt="Logo" loading="lazy">
+                </a>
+                <a class="navbar-brand nav-light d-none" href="#">
+                    <img class="logo" src="assets/img/logos/logo_light.png" alt="Logo" loading="lazy">
+                </a>
+            </div>
+            <div class="d-flex d-lg-none">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link nav-icon search-button">
+                            <i data-feather="command" class="icon feather-16"></i>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link nav-icon theme-switcher">
+                            <i data-feather="sun" class="icon feather-16"></i>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link nav-icon language-button">
+                          <i data-feather="globe" class="icon feather-16"></i>
+                      </a>
+                    </li>
+                  </ul>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    
+                    <li class="nav-item">
+                        <a class="nav-link semibold active"
+                            aria-current="page" href="index.html" wire:navigate>
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link semibold"
+                            aria-current="page" href="en/about.html" wire:navigate>
+                            About & Partners
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link semibold"
+                            aria-current="page" href="en/projects.html" wire:navigate>
+                            Services & Pricing
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link semibold"
+                            aria-current="page" href="en/blog.html" wire:navigate>
+                            Portfolio
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link semibold"
+                            aria-current="page" href="en/community.html" wire:navigate>
+                            Testimonials
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link semibold"
+                            aria-current="page" href="en/contact.html" wire:navigate>
+                            Contact
+                        </a>
+                    </li>
+
+                </ul>
+                <div class="d-flex">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        
+                        <li class="nav-item">
+                            <a class="nav-link nav-icon search-button">
+                                <div x-persist="icon-1">
+                                    <i data-feather="command" class="icon feather-16"></i>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-icon theme-switcher">
+                                <div x-persist="icon-2">
+                                    <i data-feather="sun" class="icon feather-16"></i>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-icon language-button">
+                                <div x-persist="icon-4">
+                                    <i data-feather="globe" class="icon feather-16"></i>
+                                </div>
+                            </a>
+                        </li>
+
+                    </ul>
+                    <!-- CTA KE WHATSAPP -->
+                    <a class="btn btn-primary ms-1 semibold d-flex gap-2" 
+                    href="https://wa.me/62881026959655?text=Halo%20GDR%2C%20saya%20tertarik%20dengan%20jasa%20pembuatan%20game.%20Saya%20ingin%20konsultasi%20terkait%20ide%20game%20yang%20ingin%20saya%20buat.%20Berikut%20gambaran%20singkat%20ide%20saya%3A%20"
+                    target="_blank">
+                        Hire Us
+                        <div x-persist="icon-3">
+                            <i data-feather="arrow-right" class="icon-margin feather-16"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="offcanvas offcanvas-start offcanvas-menu" tabindex="-1" id="mainMenuCanvas"
+        aria-labelledby="offcanvasLabel">
+        <div class="offcanvas-body">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link semibold active"
+                 aria-current="page" href="index.html" wire:navigate>
+                Home
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link semibold "
+                 aria-current="page" href="en/about.html" wire:navigate>
+                About & Partners
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link semibold " aria-current="page" href="en/projects.html" wire:navigate>
+                Services & Pricing
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link semibold " aria-current="page" href="en/blog.html" wire:navigate>
+                Portfolio
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link semibold " aria-current="page" href="en/community.html" wire:navigate>
+                Testimonials
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link semibold " aria-current="page" href="en/contact.html" wire:navigate>
+                Contact
+              </a>
+            </li>
+          </ul>
+            <a class="btn btn-primary ms-1 semibold d-flex gap-2" href="https://wa.me/62881026959655?text=Halo%20GDR%2C%20saya%20tertarik%20dengan%20jasa%20pembuatan%20game.%20Saya%20ingin%20konsultasi%20terkait%20ide%20game%20yang%20ingin%20saya%20buat.%20Berikut%20gambaran%20singkat%20ide%20saya%3A%20"
+              target="_blank" wire:navigate>
+              <div x-persist="icon-3">
+                <i data-feather="arrow-right" class="icon-margin feather-16"></i>
+              </div>    
+              Hire Me                  
+            </a>
+        </div>
+    </div>
+    <div wire:snapshot="{&quot;data&quot;:[],&quot;memo&quot;:{&quot;id&quot;:&quot;mwUIT8yrKGZ0ivJNDllN&quot;,&quot;name&quot;:&quot;home&quot;,&quot;path&quot;:&quot;en&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;children&quot;:[],&quot;scripts&quot;:[],&quot;assets&quot;:[],&quot;errors&quot;:[],&quot;locale&quot;:&quot;en&quot;},&quot;checksum&quot;:&quot;a86f22ddb1ee9e0200b1d6c1e741659b85fd0d82a97703120b977235daea6374&quot;}" wire:effects="[]" wire:id="mwUIT8yrKGZ0ivJNDllN" class="reveal">
+    <div class="main">
+        <div class="grid grid-primary grid-dissolve grid-dissolve-primary">
+          <div class="glow-navbar">
+            <br><br><br>
+          </div>
+          <div class="glow-background-1">
+              <br><br><br>
+          </div>
+          <div class="container pt-5 top-hero">
+            <div class="row">
+                <div
+                    class="col-12 col-md-7
+                    order-2 order-md-1 d-flex
+                    align-items-center text-center
+                    text-md-start text-dynamic-primary">
+                    <div>
+                    <div class="header-text-container mt-5 mt-lg-0 reveal reveal-left">
+                        <h1 class="bold">
+                            Turn your ideas into real games with
+                            <span class="magic">
+                                <span class="magic-star">
+                                    <svg viewBox="0 0 512 512">
+                                        <path d="M512 255.1c0 11.34-7.406 20.86-18.44 23.64l-171.3 42.78l-42.78 171.1C276.7 504.6 267.2 512 255.9 512s-20.84-7.406-23.62-18.44l-42.66-171.2L18.47 279.6C7.406 276.8 0 267.3 0 255.1c0-11.34 7.406-20.83 18.44-23.61l171.2-42.78l42.78-171.1C235.2 7.406 244.7 0 256 0s20.84 7.406 23.62 18.44l42.78 171.2l171.2 42.78C504.6 235.2 512 244.6 512 255.1z" />
+                                    </svg>
+                                </span>
+                                <span class="magic-star">
+                                    <svg viewBox="0 0 512 512">
+                                        <path d="M512 255.1c0 11.34-7.406 20.86-18.44 23.64l-171.3 42.78l-42.78 171.1C276.7 504.6 267.2 512 255.9 512s-20.84-7.406-23.62-18.44l-42.66-171.2L18.47 279.6C7.406 276.8 0 267.3 0 255.1c0-11.34 7.406-20.83 18.44-23.61l171.2-42.78l42.78-171.1C235.2 7.406 244.7 0 256 0s20.84 7.406 23.62 18.44l42.78 171.2l171.2 42.78C504.6 235.2 512 244.6 512 255.1z" />
+                                    </svg>
+                                </span>
+                                <span class="magic-star">
+                                    <svg viewBox="0 0 512 512">
+                                        <path d="M512 255.1c0 11.34-7.406 20.86-18.44 23.64l-171.3 42.78l-42.78 171.1C276.7 504.6 267.2 512 255.9 512s-20.84-7.406-23.62-18.44l-42.66-171.2L18.47 279.6C7.406 276.8 0 267.3 0 255.1c0-11.34 7.406-20.83 18.44-23.61l171.2-42.78l42.78-171.1C235.2 7.406 244.7 0 256 0s20.84 7.406 23.62 18.44l42.78 171.2l171.2 42.78C504.6 235.2 512 244.6 512 255.1z" />
+                                    </svg>
+                                </span>
+                                <span class="magic-text">Game Development Service</span>
+                            </span>
+                        </h1>
+                    </div>
+
+                    <p class="mb-4 text-xl reveal reveal-left">
+                        Want to create your own game without the hassle?  
+                        We help turn your ideas into fully functional, interactive, and high-quality games — from concept to launch.
+                        <br><br>
+                        <strong>Not just imagined, but created.</strong>
+                    </p>
+
+                    <a class="btn-hero bold me-sm-4 reveal reveal-left no-underline" href="en/blog.html">
+                        View Portfolio
+                        <div class="arrow-wrapper">
+                            <div class="arrow"></div>
+                        </div>
+                    </a>
+
+                    <span class="d-block d-sm-inline mt-3 mt-sm-0">
+                        <a class="btn-arrow bold reveal reveal-left no-underline" href="en/contact.html">
+                            <p>Start Your Project</p>
+                            <svg stroke-width="4" stroke="currentColor" viewBox="0 0 24 24" fill="none"
+                                class="h-6 w-6" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M14 5l7 7m0 0l-7 7m7-7H3" stroke-linejoin="round" stroke-linecap="round">
+                                </path>
+                            </svg>
+                        </a>
+                    </span>
+                </div>
+                </div>
+                <div class="col-12 col-md-5 order-1 order-md-2 text-center text-md-end reveal reveal-scale-down"
+                    style="overflow: hidden;">
+                    <img src="assets/img/photos/ulum-4.png" alt="Jasa Buat Game" width="100%" loading="lazy">
+                    <div class="like-button-container">
+                      <button class="like-button" data-icon="love"️>
+                        ❤️
+                      </button>
+                      <button class="like-button" data-icon="fire">
+                        🔥
+                      </button>
+                      <button class="like-button" data-icon="rocket">
+                        🚀
+                      </button>
+                      <button class="like-button" data-icon="wow">
+                        🤯
+                      </button>
+                    </div>
+                    <div class="like-container">
+                      <div class="hearts"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="container pt-5 pb-5">
+            <h1 class="bold text-dynamic-primary reveal reveal-left text-center">
+                Bringing your game ideas to life with a creative and professional team
+            </h1>
+
+            <p class="text-dynamic-primary text-xl reveal reveal-left text-center">
+                Game Dreams Realized (GDR) is a game development service focused on turning your ideas into interactive, high-quality games — from concept to launch.
+            </p>
+            <div class="row mt-5 mb-5 pb-5">
+                <div class="col-12 col-lg-6 mt-2">
+                    <div class="card">
+                        <div class="tools">
+                            <div class="circle"><span class="red box"></span></div>
+                            <div class="circle"><span class="yellow box"></span></div>
+                            <div class="circle"><span class="green box"></span></div>
+                        </div>
+
+                        <div class="card__content ps-4 pb-4 pe-4 pt-4">
+                            <p class="bold text-dynamic-secondary text-center">
+                                <i data-feather="briefcase" class="feather-24 icon-margin me-1"></i>
+                                Our Experience
+                            </p>
+                            <hr>
+
+                            <!-- EXPERIENCE 1 -->
+                            <div class="d-flex reveal reveal-scale-up">
+                                <div class="me-4 mt-2">
+                                    <img src="assets/img/logos/jasajokimurah.jpg" class="logo-experience">
+                                </div>
+                                <div class="d-flex flex-grow-1">
+                                    <div class="flex-grow-1 me-3">
+                                        <p class="text-sm text-dynamic-secondary">
+                                            <span>2026 - Present</span>
+                                        </p>
+                                        <p class="bold text-dynamic-primary" style="margin-top: -15px;">
+                                            Game Development Services
+                                        </p>
+                                        <p class="text-sm text-dynamic-primary" style="margin-top: -15px;">
+                                            Custom Game Projects • Indonesia
+                                        </p>
+                                    </div>
+                                    <div class="flex-shrink-0 text-end d-none d-sm-block">
+                                        <small class="text-sm text-dynamic-secondary">Active</small>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- EXPERIENCE 2 -->
+                            <div class="d-flex reveal reveal-scale-up">
+                                <div class="me-4 mt-2">
+                                    <img src="assets/img/logos/logo-jamu.jpg" class="logo-experience">
+                                </div>
+                                <div class="d-flex flex-grow-1">
+                                    <div class="flex-grow-1 me-3">
+                                        <p class="text-sm text-dynamic-secondary">
+                                            <span>Project Based</span>
+                                        </p>
+                                        <p class="bold text-dynamic-primary" style="margin-top: -15px;">
+                                            Game & Application Development
+                                        </p>
+                                        <p class="text-sm text-dynamic-primary" style="margin-top: -15px;">
+                                            Web & Interactive Systems
+                                        </p>
+                                    </div>
+                                    <div class="flex-shrink-0 text-end d-none d-sm-block">
+                                        <small class="text-sm text-dynamic-secondary">Project</small>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- EXPERIENCE 3 -->
+                            <div class="d-flex reveal reveal-scale-up">
+                                <div class="me-4 mt-2">
+                                    <img src="assets/img/logos/tirta-dharma.png" class="logo-experience">
+                                </div>
+                                <div class="d-flex flex-grow-1">
+                                    <div class="flex-grow-1 me-3">
+                                        <p class="text-sm text-dynamic-secondary">
+                                            <span>Collaboration</span>
+                                        </p>
+                                        <p class="bold text-dynamic-primary" style="margin-top: -15px;">
+                                            Partnered Game Studio
+                                        </p>
+                                        <p class="text-sm text-dynamic-primary" style="margin-top: -15px;">
+                                            Expanding Game Production Capability
+                                        </p>
+                                    </div>
+                                    <div class="flex-shrink-0 text-end d-none d-sm-block">
+                                        <small class="text-sm text-dynamic-secondary">Partner</small>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- EXPERIENCE 4 -->
+                            <div class="d-flex reveal reveal-scale-up">
+                                <div class="me-4 mt-2">
+                                    <img src="assets/img/logos/reka.jpg" class="logo-experience">
+                                </div>
+                                <div class="d-flex flex-grow-1">
+                                    <div class="flex-grow-1 me-3">
+                                        <p class="text-sm text-dynamic-secondary">
+                                            <span>Technical Background</span>
+                                        </p>
+                                        <p class="bold text-dynamic-primary" style="margin-top: -15px;">
+                                            Software & Network Development
+                                        </p>
+                                        <p class="text-sm text-dynamic-primary" style="margin-top: -15px;">
+                                            Strong Technical Foundation for Game Development
+                                        </p>
+                                    </div>
+                                    <div class="flex-shrink-0 text-end d-none d-sm-block">
+                                        <small class="text-sm text-dynamic-secondary">Foundation</small>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="text-center mt-4">
+                                <a class="footer-link-source semibold" href="en/resume.html" wire:navigate>
+                                    See our journey
+                                    <i data-feather="arrow-right" class="icon-margin feather-16"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- RIGHT CARD -->
+                <div class="col-12 col-lg-6 mt-2">
+                    <div class="card" style="height: 100%;">
+                        <div class="tools">
+                            <div class="circle"><span class="red box"></span></div>
+                            <div class="circle"><span class="yellow box"></span></div>
+                            <div class="circle"><span class="green box"></span></div>
+                        </div>
+
+                        <div class="card__content ps-4 pb-4 pe-4 pt-4">
+                            <p class="bold text-dynamic-secondary text-center">
+                                <i data-feather="users" class="feather-24 icon-margin me-1"></i>
+                                Our Team
+                            </p>
+                            <hr>
+
+                            <div class="d-flex reveal reveal-scale-up">
+                                <div class="flex-grow-1">
+                                    <p class="bold text-dynamic-primary">
+                                        Game Dreams Realized (GDR) Team
+                                    </p>
+                                    <p class="text-sm text-dynamic-primary" style="margin-top: -10px;">
+                                        A collaborative team of developers, designers, and creative thinkers focused on building engaging game experiences.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="d-flex reveal reveal-scale-up mt-3">
+                                <div class="flex-grow-1">
+                                    <p class="bold text-dynamic-primary">
+                                        Core Expertise
+                                    </p>
+                                    <p class="text-sm text-dynamic-primary" style="margin-top: -10px;">
+                                        Game Development • UI/UX Design • Programming • System Architecture • Creative Concepting
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="d-flex reveal reveal-scale-up mt-3">
+                                <div class="flex-grow-1">
+                                    <p class="bold text-dynamic-primary">
+                                        Mission
+                                    </p>
+                                    <p class="text-sm text-dynamic-primary" style="margin-top: -10px;">
+                                        Turning imagination into playable reality through innovation, creativity, and technology.
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="overflow-hidden">
+            <div class="container pb-5 mb-5">
+                <div class="row">
+                    <div class="col-tech-stack col-12 col-lg-6 d-flex align-items-center order-2 order-lg-1">
+                        <div>
+                            <h1 class="bold text-dynamic-primary reveal reveal-left text-center text-lg-start">
+                                We use modern technologies to build engaging and high-quality games 🎮
+                            </h1>
+                            <p class="text-dynamic-primary text-xl reveal reveal-left text-center text-lg-start">
+                                At Game Dreams Realized (GDR), creativity meets technology. We combine powerful tools, game engines, and frameworks to turn ideas into interactive and immersive gaming experiences.
+                            </p>
+                            <div
+                                class="d-flex flex-wrap tech-stack mt-4
+                                reveal justify-content-center justify-content-lg-start">
+                                <img src="assets/img/logos/logo-unity1.png" alt="">
+                                <img src="assets/img/logos/logo-vr.png" alt="">
+                                <img src="assets/img/logos/logo-blender.png" alt="">
+                                <img src="assets/img/tech_stack/csharp.png" alt="">
+                                <img src="assets/img/logos/logo-vs.png" alt="">
+                                <img src="assets/img/logos/logo-2d3d.webp" alt="">
+                                <img src="assets/img/logos/logo-git.png" alt="">
+                            </div>
+                            <p class="text-dynamic-secondary mt-1 reveal text-center text-lg-start">
+                                and many more technologies to support your game development journey...
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 order-1 order-lg-2">
+                        <div class="tags-container d-flex justify-content-start justify-content-lg-center reveal reveal-scale-up">
+                            <div class="overlay-tag"></div>
+                            <ul class="tags-cloud text-dynamic-secondary">
+                                <li class='tag'><span class='wrap'>Unity Engine</span></li>
+                                <li class='tag'><span class='wrap'>C# Scripting</span></li>
+                                <li class='tag'><span class='wrap'>Game Physics</span></li>
+                                <li class='tag'><span class='wrap'>2D Game Dev</span></li>
+                                <li class='tag'><span class='wrap'>3D Game Dev</span></li>
+                                <li class='tag'><span class='wrap'>Game UI/UX</span></li>
+                                <li class='tag'><span class='wrap'>Animation System</span></li>
+                                <li class='tag'><span class='wrap'>Game Optimization</span></li>
+                                <li class='tag'><span class='wrap'>Mobile Game (Android)</span></li>
+                                <li class='tag'><span class='wrap'>PC Game Development</span></li>
+                                <li class='tag'><span class='wrap'>Multiplayer (Photon)</span></li>
+                                <li class='tag'><span class='wrap'>Firebase Integration</span></li>
+                                <li class='tag'><span class='wrap'>Game Monetization</span></li>
+                                <li class='tag'><span class='wrap'>Ads Integration</span></li>
+                                <li class='tag'><span class='wrap'>In-App Purchase</span></li>
+                                <li class='tag'><span class='wrap'>Asset Management</span></li>
+                                <li class='tag'><span class='wrap'>Level Design</span></li>
+                                <li class='tag'><span class='wrap'>Game Testing</span></li>
+                                <li class='tag'><span class='wrap'>Version Control (Git)</span></li>
+                                <li class='tag'><span class='wrap'>Blender (3D Assets)</span></li>
+                                <li class='tag'><span class='wrap'>UI Toolkit</span></li>
+                                <li class='tag'><span class='wrap'>Scriptable Objects</span></li>
+                                <li class='tag'><span class='wrap'>Shader Basics</span></li>
+                                <li class='tag'><span class='wrap'>Visual Studio</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container pt-5 pb-5">
+            <div class="row">
+                <div class="col-12 col-lg-4">
+                    <h3 class="bold text-dynamic-primary reveal reveal-left text-center text-lg-start">
+                        Our Projects
+                    </h3>
+                    <p class="text-dynamic-primary text-xl reveal reveal-left text-center text-lg-start">
+                        Here are some of the game projects and prototypes we have developed to bring ideas into reality.
+                    </p>
+                </div>
+                <div class="col-12 col-lg-8">
+                    <div class="row">
+                        <!--[if BLOCK]><![endif]-->                            
+                            <div class="col-12 col-md-6 mb-4">
+                                <a href="en/blog.html" class="card-click reveal reveal-right" wire:navigate>
+                                    <div class="card" style="height: 100%;">
+                                        <div class="card__content ps-4 pb-4 pe-4 pt-4">
+                                            <div class="d-flex">
+                                                <div class="flex-grow-1">
+                                                    <img class="img-certification"
+                                                        src="assets/img/certifications/logo-kemnaker-2.png"
+                                                        alt="">
+                                                </div>
+                                                <div class="flex-shrink-0 text-end">
+                                                    <p class="text-sm text-dynamic-secondary">
+                                                        2025</p>
+                                                </div>
+                                            </div>
+                                            <p class="bold text-dynamic-primary">
+                                                2D Mobile Game Development Prototype</p>
+                                            <p class="text-sm text-dynamic-primary" style="margin-top: -10px;">
+                                                Built using Unity Engine for Android platform</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col-12 col-md-6 mb-4">
+                                <a href="en/blog.html" class="card-click reveal reveal-right" wire:navigate>
+                                    <div class="card" style="height: 100%;">
+                                        <div class="card__content ps-4 pb-4 pe-4 pt-4">
+                                            <div class="d-flex">
+                                                <div class="flex-grow-1">
+                                                    <img class="img-certification"
+                                                        src="assets/img/certifications/idcamp-logo1.png"
+                                                        alt="">
+                                                </div>
+                                                <div class="flex-shrink-0 text-end">
+                                                    <p class="text-sm text-dynamic-secondary">
+                                                        2025</p>
+                                                </div>
+                                            </div>
+                                            <p class="bold text-dynamic-primary">
+                                                Custom Game Project for Client</p>
+                                            <p class="text-sm text-dynamic-primary" style="margin-top: -10px;">
+                                                Game development service tailored to client needs (Android & PC)</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            
+                        <!--[if ENDBLOCK]><![endif]-->
+                    </div>
+                </div>
+                <hr class="mt-4">
+            </div>
+        </div>
+        <div class="container pt-5 pb-5">
+            <h3 class="bold text-dynamic-primary reveal reveal-left text-center text-lg-start">
+                Why Choose Us
+            </h3>
+            <p class="text-dynamic-primary text-xl reveal reveal-left text-center text-lg-start">
+                We focus on delivering high-quality game development services with creativity, precision, and client satisfaction.
+            </p>
+            <div class="row mt-4">
+                <!-- CARD 1 -->
+                <div class="col-12 col-lg-6 mb-4">
+                    <a href="en/blog.html" class="card-click reveal reveal-right" wire:navigate>
+                        <div class="card" style="height: 100%;">
+                            <div class="card__content ps-4 pb-4 pe-4 pt-4">
+                                <div class="d-flex">
+                                    <div class="flex-shrink-0 me-3">
+                                        <p class="text-dynamic-secondary"><i data-feather="settings"></i></p>
+                                    </div>
+                                    <div class="flex-grow-1">
+                                        <p class="text-sm text-dynamic-secondary">
+                                            Professional Workflow</p>
+                                        <p class="bold text-dynamic-primary" style="margin-top: -10px;">
+                                            Structured & Scalable Development</p>
+                                        <p class="text-sm text-dynamic-primary" style="margin-top: -10px;">
+                                            We follow a clear pipeline from idea to deployment, ensuring quality and consistency in every project.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- CARD 2 -->
+                <div class="col-12 col-lg-6 mb-4">
+                    <a href="en/blog.html" class="card-click reveal reveal-right" wire:navigate>
+                        <div class="card" style="height: 100%;">
+                            <div class="card__content ps-4 pb-4 pe-4 pt-4">
+                                <div class="d-flex">
+                                    <div class="flex-shrink-0 me-3">
+                                        <p class="text-dynamic-secondary"><i data-feather="edit"></i></p>
+                                    </div>
+                                    <div class="flex-grow-1">
+                                        <p class="text-sm text-dynamic-secondary">
+                                            Fully Customizable</p>
+                                        <p class="bold text-dynamic-primary" style="margin-top: -10px;">
+                                            Your Idea, Your Game</p>
+                                        <p class="text-sm text-dynamic-primary" style="margin-top: -10px;">
+                                            We turn your ideas into interactive games with flexible features tailored to your needs.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- CARD 3 -->
+                <div class="col-12 col-lg-6 mb-4">
+                    <a href="en/blog.html" class="card-click reveal reveal-right" wire:navigate>
+                        <div class="card" style="height: 100%;">
+                            <div class="card__content ps-4 pb-4 pe-4 pt-4">
+                                <div class="d-flex">
+                                    <div class="flex-shrink-0 me-3">
+                                        <p class="text-dynamic-secondary"><i data-feather="zap"></i></p>
+                                    </div>
+                                    <div class="flex-grow-1">
+                                        <p class="text-sm text-dynamic-secondary">
+                                            Fast & Efficient</p>
+                                        <p class="bold text-dynamic-primary" style="margin-top: -10px;">
+                                            Optimized Development Time</p>
+                                        <p class="text-sm text-dynamic-primary" style="margin-top: -10px;">
+                                            We prioritize efficiency to deliver your game faster without compromising quality.</p>
+                                        <p class="text-sm text-dynamic-secondary" href="en/blog.html" wire:navigate>
+                                            ✔ learn more <i data-feather="external-link" width="17" height="17"></i></p>
+                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- CARD 4 -->
+                <div class="col-12 col-lg-6 mb-4">
+                    <a href="en/blog.html" class="card-click reveal reveal-right" wire:navigate>
+                        <div class="card" style="height: 100%;">
+                            <div class="card__content ps-4 pb-4 pe-4 pt-4">
+                                <div class="d-flex">
+                                    <div class="flex-shrink-0 me-3">
+                                        <p class="text-dynamic-secondary"><i data-feather="headphones"></i></p>
+                                    </div>
+                                    <div class="flex-grow-1">
+                                        <p class="text-sm text-dynamic-secondary">
+                                            Support & Revision</p>
+                                        <p class="bold text-dynamic-primary" style="margin-top: -10px;">
+                                            We Stay With You</p>
+                                        <p class="text-sm text-dynamic-primary" style="margin-top: -10px;">
+                                            We provide ongoing support and revisions to ensure your game runs perfectly after delivery.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <hr class="mt-5">
+        </div>
+        <div class="container pt-5 pb-5">
+            <h3 class="bold text-dynamic-primary reveal reveal-left text-center text-lg-start">
+                Our Team & Collaboration
+            </h3>
+            <p class="text-dynamic-primary text-xl reveal reveal-left text-center text-lg-start">
+                Meet the passionate team behind Game Dreams Realized (GDR) and our trusted collaboration network.
+            </p>
+
+            <div class="row mt-4">
+
+                <!-- MEMBER 1 -->
+                <div class="col-12 col-lg-3 mb-4">
+                    <div class="card text-center reveal reveal-right">
+                        <div class="card__content p-4">
+                            <img src="assets/img/team/ulum.jpg" class="rounded-circle mb-3" width="90" height="90" alt="">
+                            <p class="bold text-dynamic-primary">Ulum</p>
+                            <p class="text-sm text-dynamic-secondary">CEO & Fullstack Developer</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- MEMBER 2 -->
+                <div class="col-12 col-lg-3 mb-4">
+                    <div class="card text-center reveal reveal-right">
+                        <div class="card__content p-4">
+                            <img src="assets/img/team/rifki.jpg" class="rounded-circle mb-3" width="90" height="90" alt="">
+                            <p class="bold text-dynamic-primary">Rifki</p>
+                            <p class="text-sm text-dynamic-secondary">Game Developer</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- MEMBER 3 -->
+                <div class="col-12 col-lg-3 mb-4">
+                    <div class="card text-center reveal reveal-right">
+                        <div class="card__content p-4">
+                            <img src="assets/img/team/wahyudi.jpg" class="rounded-circle mb-3" width="90" height="90" alt="">
+                            <p class="bold text-dynamic-primary">Wahyudi</p>
+                            <p class="text-sm text-dynamic-secondary">UI/UX Designer</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- MEMBER 4 -->
+                <div class="col-12 col-lg-3 mb-4">
+                    <div class="card text-center reveal reveal-right">
+                        <div class="card__content p-4">
+                            <img src="assets/img/team/yare.jpg" class="rounded-circle mb-3" width="90" height="90" alt="">
+                            <p class="bold text-dynamic-primary">Yare</p>
+                            <p class="text-sm text-dynamic-secondary">Project Manager</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- COLLABORATION -->
+            <div class="row mt-4">
+                <div class="col-12">
+                    <div class="card reveal reveal-left">
+                        <div class="card__content p-4 text-center">
+                            <p class="bold text-dynamic-primary">Our Collaboration</p>
+                            <p class="text-dynamic-secondary">
+                                We collaborate with professional game studios to ensure scalability, quality, and industry-level production.
+                            </p>
+
+                            <!-- LOGO PARTNER -->
+                            <div class="d-flex justify-content-center gap-4 mt-3 flex-wrap">
+                                <img src="assets/img/logos/tirta-dharma.png" height="40">
+                                <img src="assets/img/logos/jasajokimurah.jpeg" height="40">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+        </div>
+        <div class="bg-dynamic-text-secondary overflow-hidden">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-6 d-flex align-items-center pt-5 pb-5">
+                        <div class="mt-5">
+                            <h1 class="bold text-dynamic-primary reveal reveal-left text-center text-lg-start">
+                                Turn Your Game Idea Into Reality 🚀
+                            </h1>
+
+                            <p class="text-dynamic-primary text-xl reveal reveal-left text-center text-lg-start">
+                                Have an idea for a game? Don't let it stay as imagination. 
+                                Game Dreams Realized (GDR) is ready to help you design, develop, and launch your game professionally.
+                            </p>
+
+                            <a class="mt-4 btn-hero bold me-sm-4 reveal reveal-left no-underline" 
+                            href="https://wa.me/62881026959655?text=Halo%20GDR%2C%20saya%20ingin%20konsultasi%20dan%20bertanya%20tentang%20jasa%20pembuatan%20game." 
+                            target="_blank">
+                                Start Your Project Now
+                                <div class="arrow-wrapper">
+                                    <div class="arrow"></div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <div class="plane-container reveal reveal-scale-down">
+                            <div class="scene">
+                                <div class="cloud cloud--one">
+                                    <div class="cloud__shift">
+                                        <div class="cloud__body">
+                                            <div>
+                                                <div class="cuboid cuboid--cloud">
+                                                    <div class="cuboid__side"></div>
+                                                    <div class="cuboid__side"></div>
+                                                    <div class="cuboid__side"></div>
+                                                    <div class="cuboid__side"></div>
+                                                    <div class="cuboid__side"></div>
+                                                    <div class="cuboid__side"></div>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="cuboid cuboid--cloud">
+                                                    <div class="cuboid__side"></div>
+                                                    <div class="cuboid__side"></div>
+                                                    <div class="cuboid__side"></div>
+                                                    <div class="cuboid__side"></div>
+                                                    <div class="cuboid__side"></div>
+                                                    <div class="cuboid__side"></div>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="cuboid cuboid--cloud">
+                                                    <div class="cuboid__side"></div>
+                                                    <div class="cuboid__side"></div>
+                                                    <div class="cuboid__side"></div>
+                                                    <div class="cuboid__side"></div>
+                                                    <div class="cuboid__side"></div>
+                                                    <div class="cuboid__side"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cloud cloud--two">
+                                    <div class="cloud__shift">
+                                        <div class="cloud__body">
+                                            <div>
+                                                <div class="cuboid cuboid--cloud">
+                                                    <div class="cuboid__side"></div>
+                                                    <div class="cuboid__side"></div>
+                                                    <div class="cuboid__side"></div>
+                                                    <div class="cuboid__side"></div>
+                                                    <div class="cuboid__side"></div>
+                                                    <div class="cuboid__side"></div>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="cuboid cuboid--cloud">
+                                                    <div class="cuboid__side"></div>
+                                                    <div class="cuboid__side"></div>
+                                                    <div class="cuboid__side"></div>
+                                                    <div class="cuboid__side"></div>
+                                                    <div class="cuboid__side"></div>
+                                                    <div class="cuboid__side"></div>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="cuboid cuboid--cloud">
+                                                    <div class="cuboid__side"></div>
+                                                    <div class="cuboid__side"></div>
+                                                    <div class="cuboid__side"></div>
+                                                    <div class="cuboid__side"></div>
+                                                    <div class="cuboid__side"></div>
+                                                    <div class="cuboid__side"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cloud cloud--three">
+                                    <div class="cloud__shift">
+                                        <div class="cloud__body">
+                                            <div>
+                                                <div class="cuboid cuboid--cloud">
+                                                    <div class="cuboid__side"></div>
+                                                    <div class="cuboid__side"></div>
+                                                    <div class="cuboid__side"></div>
+                                                    <div class="cuboid__side"></div>
+                                                    <div class="cuboid__side"></div>
+                                                    <div class="cuboid__side"></div>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="cuboid cuboid--cloud">
+                                                    <div class="cuboid__side"></div>
+                                                    <div class="cuboid__side"></div>
+                                                    <div class="cuboid__side"></div>
+                                                    <div class="cuboid__side"></div>
+                                                    <div class="cuboid__side"></div>
+                                                    <div class="cuboid__side"></div>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="cuboid cuboid--cloud">
+                                                    <div class="cuboid__side"></div>
+                                                    <div class="cuboid__side"></div>
+                                                    <div class="cuboid__side"></div>
+                                                    <div class="cuboid__side"></div>
+                                                    <div class="cuboid__side"></div>
+                                                    <div class="cuboid__side"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="plane__floater">
+                                    <div class="plane__looper">
+                                        <div class="plane">
+                                            <div class="plane__wheels">
+                                                <div class="plane__axle">
+                                                    <div class="cuboid cuboid--axle">
+                                                        <div class="cuboid__side"></div>
+                                                        <div class="cuboid__side"></div>
+                                                        <div class="cuboid__side"></div>
+                                                        <div class="cuboid__side"></div>
+                                                        <div class="cuboid__side"></div>
+                                                        <div class="cuboid__side"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="plane__wheel plane__wheel--left">
+                                                    <div class="cuboid cuboid--wheel-left">
+                                                        <div class="cuboid__side"></div>
+                                                        <div class="cuboid__side"></div>
+                                                        <div class="cuboid__side"></div>
+                                                        <div class="cuboid__side"></div>
+                                                        <div class="cuboid__side"></div>
+                                                        <div class="cuboid__side"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="plane__wheel plane__wheel--right">
+                                                    <div class="cuboid cuboid--wheel-right">
+                                                        <div class="cuboid__side"></div>
+                                                        <div class="cuboid__side"></div>
+                                                        <div class="cuboid__side"></div>
+                                                        <div class="cuboid__side"></div>
+                                                        <div class="cuboid__side"></div>
+                                                        <div class="cuboid__side"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="plane__body">
+                                                <div class="cuboid cuboid--body">
+                                                    <div class="cuboid__side"></div>
+                                                    <div class="cuboid__side"></div>
+                                                    <div class="cuboid__side"></div>
+                                                    <div class="cuboid__side"></div>
+                                                    <div class="cuboid__side"></div>
+                                                    <div class="cuboid__side"></div>
+                                                </div>
+                                            </div>
+                                            <div class="plane__nose">
+                                                <div class="cuboid cuboid--nose">
+                                                    <div class="cuboid__side"></div>
+                                                    <div class="cuboid__side"></div>
+                                                    <div class="cuboid__side"></div>
+                                                    <div class="cuboid__side"></div>
+                                                    <div class="cuboid__side"></div>
+                                                    <div class="cuboid__side"></div>
+                                                </div>
+                                            </div>
+                                            <div class="plane__propellor">
+                                                <div class="propellor"></div>
+                                            </div>
+                                            <div class="plane__screen">
+                                                <div class="cuboid cuboid--screen">
+                                                    <div class="cuboid__side"></div>
+                                                    <div class="cuboid__side"></div>
+                                                    <div class="cuboid__side"></div>
+                                                    <div class="cuboid__side"></div>
+                                                    <div class="cuboid__side"></div>
+                                                    <div class="cuboid__side"></div>
+                                                </div>
+                                            </div>
+                                            <div class="plane__wings wings">
+                                                <div class="wings__top">
+                                                    <div class="cuboid cuboid--wings-top">
+                                                        <div class="cuboid__side"></div>
+                                                        <div class="cuboid__side"></div>
+                                                        <div class="cuboid__side"></div>
+                                                        <div class="cuboid__side"></div>
+                                                        <div class="cuboid__side"></div>
+                                                        <div class="cuboid__side"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="wings__ghost">
+                                                    <div class="cuboid cuboid--wings-ghost">
+                                                        <div class="cuboid__side"></div>
+                                                        <div class="cuboid__side"></div>
+                                                        <div class="cuboid__side"></div>
+                                                        <div class="cuboid__side"></div>
+                                                        <div class="cuboid__side"></div>
+                                                        <div class="cuboid__side"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="wings__bottom">
+                                                    <div class="cuboid cuboid--wings-bottom">
+                                                        <div class="cuboid__side"></div>
+                                                        <div class="cuboid__side"></div>
+                                                        <div class="cuboid__side"></div>
+                                                        <div class="cuboid__side"></div>
+                                                        <div class="cuboid__side"></div>
+                                                        <div class="cuboid__side"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="wings__strobe wings__strobe--left">
+                                                    <div class="cuboid cuboid--strobe">
+                                                        <div class="cuboid__side"></div>
+                                                        <div class="cuboid__side"></div>
+                                                        <div class="cuboid__side"></div>
+                                                        <div class="cuboid__side"></div>
+                                                        <div class="cuboid__side"></div>
+                                                        <div class="cuboid__side"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="wings__strobe wings__strobe--right">
+                                                    <div class="cuboid cuboid--strobe">
+                                                        <div class="cuboid__side"></div>
+                                                        <div class="cuboid__side"></div>
+                                                        <div class="cuboid__side"></div>
+                                                        <div class="cuboid__side"></div>
+                                                        <div class="cuboid__side"></div>
+                                                        <div class="cuboid__side"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="plane__tail">
+                                                <div class="cuboid cuboid--tail">
+                                                    <div class="cuboid__side"></div>
+                                                    <div class="cuboid__side"></div>
+                                                    <div class="cuboid__side"></div>
+                                                    <div class="cuboid__side"></div>
+                                                    <div class="cuboid__side"></div>
+                                                    <div class="cuboid__side"></div>
+                                                </div>
+                                            </div>
+                                            <div class="plane__stabilizer plane__stabilizer--horizontal">
+                                                <div class="cuboid cuboid--horizontal-stabilizer">
+                                                    <div class="cuboid__side"></div>
+                                                    <div class="cuboid__side"></div>
+                                                    <div class="cuboid__side"></div>
+                                                    <div class="cuboid__side"></div>
+                                                    <div class="cuboid__side"></div>
+                                                    <div class="cuboid__side"></div>
+                                                </div>
+                                            </div>
+                                            <div class="plane__stabilizer plane__stabilizer--vertical">
+                                                <div class="cuboid cuboid--vertical-stabilizer">
+                                                    <div class="cuboid__side"></div>
+                                                    <div class="cuboid__side"></div>
+                                                    <div class="cuboid__side"></div>
+                                                    <div class="cuboid__side"></div>
+                                                    <div class="cuboid__side"></div>
+                                                    <div class="cuboid__side"></div>
+                                                </div>
+                                            </div>
+                                            <div class="plane__beacon">
+                                                <div class="cuboid cuboid--beacon">
+                                                    <div class="cuboid__side"></div>
+                                                    <div class="cuboid__side"></div>
+                                                    <div class="cuboid__side"></div>
+                                                    <div class="cuboid__side"></div>
+                                                    <div class="cuboid__side"></div>
+                                                    <div class="cuboid__side"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="bg-dynamic-text-secondary">
+      <div x-persist="spotify">
+        <div id="spotify-container" class="container" style="display: none;">
+            <div class="row">
+                <div class="col-12 col-lg-6 d-flex align-items-center mb-5 mt-5">
+                    <h3 class="bold text-dynamic-primary reveal reveal-left text-center text-lg-start">
+                        Music makes me happy. Let's see what I'm listening to right now on Spotify.<br>
+                        <button class="btn btn-spotify mt-3" id="spotify-play" data-url="">
+                            Listen on
+                            <span class="ms-1">
+                                <img src="assets/img/logos/spotify.png" height="20px" alt="Spotify"
+                                    style="margin-top: -6px;">
+                            </span>
+                        </button>
+                    </h3>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div id="spotify-song-container"
+                        class="container pb-3 d-flex justify-content-center
+                  align-items-center spotify-animation spotify-animation-right active">
+                        <div class="play-containe mb-5 mt-5">
+                            <div class="playing-container">
+                                <div class="playing-photo-container">
+                                    <div class="playing-photo">
+                                        <img id="spotify-album-photo" src="" alt="Spotify Album">
+                                    </div>
+                                </div>
+                                <div class="playing-infos ms-3">
+                                    <span class="playing-infos__title text-dynamic-primary">
+                                        Now listening on Spotify
+                                    </span>
+                                    <span id="spotify-song-title"
+                                        class="playing-infos__music-title text-dynamic-primary"></span>
+                                    <span id="spotify-artist-name"
+                                        class="playing-infos__artist-name text-dynamic-primary"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <footer class="bg-dynamic-text-secondary">
+        <div class="pt-3 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-8 text-center text-md-start order-2 order-md-1">
+                        <div>
+                        <small class="text-dynamic-secondary">
+                            Copyright &copy; 2026 - <span id="currentYear"></span>
+                            Game Dreams Realized (GDR)
+                        </small>
+                        </div>
+
+                        <div>
+                        <small class="text-dynamic-secondary">
+                            All trademarks, logos, and brand names are the property of their respective owners.
+                        </small>
+                        </div>
+
+                        <div class="mt-2">
+                        <small class="text-dynamic-secondary d-md-flex gap-2 justify-content-center justify-content-md-start">
+                            Built with <span style="color: #e25555;">&#9829;</span> in Indonesia by GDR Team
+                            <div class="d-flex gap-2 footer-icon justify-content-center mt-3 mb-3 mt-md-0 mb-md-0">
+
+                                <a href="#" class="text-dynamic-secondary">
+                                <img src="assets/img/logos/logo-unity1.png" height="20px" alt="Unity">
+                                </a>
+
+                                <a href="#" class="text-dynamic-secondary">
+                                <img src="assets/img/logos/livewire.png" height="20px" alt="Unreal">
+                                </a>
+
+                                <a href="#" class="text-dynamic-secondary">
+                                <img src="assets/img/logos/laravel.png" height="20px" alt="Laravel">
+                                </a>
+
+                                <div class="ms-2">
+                                <a class="footer-link-source semibold"
+                                    href="https://jasabuatgame.vercel.app">
+                                    Visit Website
+                                    <i data-feather="arrow-right" class="icon-margin feather-16"></i>
+                                </a>
+                                </div>
+
+                            </div>
+                        </small>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 order-1 order-md-2">
+                        <div class="d-flex justify-content-center
+                                    justify-content-md-end mb-5 mb-md-0 social-icons gap-4 h-100 align-items-center">
+                            <a href="https://linkedin.com/in/miftachul-ulum" target="_blank">
+                              <i class="bi bi-linkedin text-xl"></i>
+                            </a>
+                            <a href="https://github.com/MiftachulUlum" target="_blank">
+                              <i class="bi bi-github text-xl"></i>
+                            </a>
+                            <a href="https://instagram.com/miftaa_id" target="_blank">
+                              <i class="bi bi-instagram text-xl"></i>
+                            </a>
+                            <a href="https://youtube.com/@miftaa_id" target="_blank">
+                              <i class="bi bi-youtube text-xl"></i>
+                            </a>
+                            <a href="mailto:miftachululum585@gmail.com" target="_blank">
+                              <i class="bi bi-envelope text-xl"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="modal" id="searchModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="search-modal modal-content bg-dynamic-text-secondary text-dynamic-primary">
+                <div class="modal-body">
+                    <div class="input-group search-group text-dynamic-primary">
+                        <span class="input-group-text bg-transparent border-0 text-primary" id="basic-addon1">
+                            <i data-feather="search" class="feather-24"></i>
+                        </span>
+                        <input id="searchInput" type="text" class="form-control bg-transparent border-0"
+                            placeholder="Search projects, blog, etc..." aria-label="Username"
+                            aria-describedby="basic-addon1">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="languageModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="search-modal modal-content bg-dynamic-text-secondary text-dynamic-primary">
+                <div class="modal-body">
+                    <p class="semibold">Select language</p>
+                    <div class="modal-items-container">
+                      <a class="mt-1 item-list "
+                        href="id.html"
+                        wire:navigate>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex align-items-center">
+                                <img src="assets/img/flags/id.png" alt="Indonesia" height="20px">
+                                <span class="ms-2">Indonesian</span>
+                            </div>
+                        </div>
+                      </a>
+                      <a class="mt-1 item-list active"
+                        href="index.html"
+                        wire:navigate>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex align-items-center">
+                                <img src="assets/img/flags/en.png" alt="English" height="20px">
+                                <span class="ms-2">English</span>
+                            </div>
+                        </div>
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script data-navigate-once src="assets/js/bootstrap.bundle.min.js"></script>
+    <script data-navigate-once src="assets/js/init.js"></script>
+    <script src="livewire/livewire.min.js"   data-csrf="1KEtKWO3Ai8JbmHnsdCJlUChjZ2PHHGFjuCHuT8Q" data-update-uri="/livewire/update" data-navigate-once="true"></script>
+    <script src="assets/js/sweetalert2.min.js"></script>
+    <script src="assets/js/fahli.js"></script>
+    <script data-navigate-once src="assets/js/api.js"></script>
+    <script>
+      document.addEventListener('livewire:navigated', () => {
+        reveal();
+        window.scrollTo(0, 0);
+      });
+      // Set tahun berdasarkan zona waktu Indonesia Barat (WIB)
+    const options = { timeZone: 'Asia/Jakarta', year: 'numeric' };
+    const currentYear = new Intl.DateTimeFormat('id-ID', options).format(new Date());
+    document.getElementById("currentYear").textContent = currentYear;
+    </script>
+        <script src="assets/js/magic_text.js"></script>
+    <script src="assets/js/tags.js"></script>
+    <script data-navigate-once src="assets/js/gsap.min.js"></script>
+    <script src="assets/js/plane.js"></script>
+<center>
+  <span style="font-size: 13px; color: gray;">
+    Last updated: Friday, September 05, 2025 • 15:47:30 GMT+7
+  </span>
+</center>
+</body>
+</html>
